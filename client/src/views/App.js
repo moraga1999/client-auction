@@ -6,7 +6,7 @@ import logo from './img/logo.png'; // with import
 import {SelectedProduct} from './SelectedProduct';
 import {Products} from './Products';
 
-var socket = io('34.27.233.242');
+var socket = io('34.135.28.92');
 
 function App() {
   const [username, setUsername] = useState('')
